@@ -6,41 +6,31 @@ using Tools;
 
 namespace Practise
 {
-    //class T
-    //{
-    //    string s;
-    //    public T(string s)
-    //    {
-    //        this.s = s;
-    //    }
-    //    public void SetS(string s) => this.s = s;
-
-    //    public string GetS() => this.s;
-    //}
-    //class A
-    //{
-
-    //}
-    //class B : A { }
-    //class C : B { }
-
     internal class Program
     {
-        //int k;
-        //public int k2 { get; set; }
-
         static void Main(string[] args)
         {
+            
+            print("Hello");
+            Console.WriteLine("Salam");
+            void print(string s) => Console.WriteLine(s);
 
 
+            // User te = new User();
+            // User.Foo2 g = new User.Foo2();
+            // ArrayList arr = new ArrayList();
+            // arr.Add("salam");
+            // var t = arr[0];
+            // int s = (int)arr[0];
 
+            // Console.WriteLine(t);
 
 
             //StringSegment ewet = new StringSegment("saalam");
-          
+
             //var t = new int[] { 1, 2, 4, 3, 4 };
             //var r = t[^1];
-            
+
 
             //ArraySegment<int> ddd = new ArraySegment<int>(t,1,4);
 
@@ -59,7 +49,7 @@ namespace Practise
             //        dateTime = DateTime.Now;
             //        Console.Clear();
             //        Console.WriteLine(DateTime.Now);
- 
+
             //    }
             //    //else
             //    //{
@@ -76,7 +66,7 @@ namespace Practise
             //        dateTime = DateTime.Now;
             //        Console.Clear();
             //        Console.WriteLine(DateTime.Now);
- 
+
             //    }
             //    //else
             //    //{
@@ -144,7 +134,6 @@ namespace Practise
             //Console.WriteLine(t2.GetS());
 
 
-
             //string s = "Salam";
             //string t = s;
             //string k = t;
@@ -156,10 +145,6 @@ namespace Practise
             //Console.WriteLine(s);
             //Console.WriteLine(t);
             //Console.WriteLine(k);
-
-
-
-
 
 
             //Program t = new Program();
@@ -175,7 +160,23 @@ namespace Practise
             //int a = 45, b = 55;
             //Calculator calculator = new Calculator();
             //Console.WriteLine(calculator.Sum(a, b));
-
         }
     }
+    //class T
+    //{
+    //    string s;
+    //    public T(string s)
+    //    {
+    //        this.s = s;
+    //    }
+    //    public void SetS(string s) => this.s = s;
+
+    //    public string GetS() => this.s;
+    //}
+    //class A
+    //{
+
+    //}
+    //class B : A { }
+    //class C : B { }
 }
