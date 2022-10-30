@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Extensions.Primitives;
+using System;
 using System.Collections;
 using System.Globalization;
 using Tools;
@@ -30,10 +31,25 @@ namespace Practise
 
         static void Main(string[] args)
         {
-            var t = new int[] { 1, 2, 4, 3, 4 };
-            var r = t[^1];
-        Console.WriteLine(r);
-            //DateTime dateTime = new DateTime();
+
+
+
+
+
+            //StringSegment ewet = new StringSegment("saalam");
+          
+            //var t = new int[] { 1, 2, 4, 3, 4 };
+            //var r = t[^1];
+            
+
+            //ArraySegment<int> ddd = new ArraySegment<int>(t,1,4);
+
+            //var tt = t[..2];
+            //foreach (var item in tt)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            ////DateTime dateTime = new DateTime();
             //while (true)
             //{
             //    Console.BackgroundColor = ConsoleColor.DarkMagenta;
