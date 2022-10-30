@@ -5,23 +5,23 @@ using Tools;
 
 namespace Practise
 {
-    class T
-    {
-        string s;
-        public T(string s)
-        {
-            this.s = s;
-        }
-        public void SetS(string s) => this.s = s;
+    //class T
+    //{
+    //    string s;
+    //    public T(string s)
+    //    {
+    //        this.s = s;
+    //    }
+    //    public void SetS(string s) => this.s = s;
 
-        public string GetS() => this.s;
-    }
-    class A
-    {
+    //    public string GetS() => this.s;
+    //}
+    //class A
+    //{
 
-    }
-    class B : A { }
-    class C : B { }
+    //}
+    //class B : A { }
+    //class C : B { }
 
     internal class Program
     {
@@ -30,8 +30,27 @@ namespace Practise
 
         static void Main(string[] args)
         {
-            double a = 2144444748364333378;
-            ArrayList t = new ArrayList();
+            DateTime dateTime = new DateTime();
+            while (true)
+            {
+                Console.BackgroundColor = ConsoleColor.DarkMagenta;
+
+                if (dateTime.Second != DateTime.Now.Second)
+                {
+                    dateTime = DateTime.Now;
+                    Console.Clear();
+                    Console.WriteLine(DateTime.Now);
+ 
+                }
+                //else
+                //{
+                //    Console.BackgroundColor = ConsoleColor.White;
+                //}
+            }
+
+
+            //double a = 2144447483643933378;
+            //ArrayList t = new ArrayList();
             //for (; ; )
             //{
             //    t.Add(new Program());
