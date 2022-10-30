@@ -10,10 +10,33 @@ namespace Practise
     {
         static void Main(string[] args)
         {
+            string s = "455";
+
             
-            print("Hello");
-            Console.WriteLine("Salam");
-            void print(string s) => Console.WriteLine(s);
+            
+            // int a = 45;
+// Check(out a);
+//
+//             void Check(out int n)
+//             {
+//                n = 455;
+//             }
+//
+//             Console.WriteLine(a);
+
+            // Change(ref a);
+            //
+            // int Change( ref int i)
+            // {
+            //     return i;
+            // }
+            //
+            // Console.WriteLine(a);
+
+
+            // print("Hello");
+            // Console.WriteLine("Salam");
+            // void print(string s) => Console.WriteLine(s);
 
 
             // User te = new User();
