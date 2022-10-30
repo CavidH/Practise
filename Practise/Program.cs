@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Globalization;
 using Tools;
 
@@ -9,9 +10,9 @@ namespace Practise
         string s;
         public T(string s)
         {
-            this.s = s; 
+            this.s = s;
         }
-        public void SetS(string s)=>this.s = s;
+        public void SetS(string s) => this.s = s;
 
         public string GetS() => this.s;
     }
@@ -19,8 +20,8 @@ namespace Practise
     {
 
     }
-    class B:A{ }
-    class C:B { }
+    class B : A { }
+    class C : B { }
 
     internal class Program
     {
@@ -29,11 +30,49 @@ namespace Practise
 
         static void Main(string[] args)
         {
+            double a = 2144444748364333378;
+            ArrayList t = new ArrayList();
+            //for (; ; )
+            //{
+            //    t.Add(new Program());
+            //    t.AddRange(t);
+            //    for (; ; )
+            //    {
+            //        t.Add(new Program());
+            //        t.AddRange(t);
+            //        for (; ; )
+            //        {
+            //            t.Add(new Program());
+            //            t.AddRange(t);
+            //            for (; ; )
+            //            {
+            //                t.Add(new Program());
+            //                t.AddRange(t);
+            //                for (; ; )
+            //                {
+            //                    t.Add(new Program());
+            //                    t.AddRange(t);
+            //                };
+            //            };
+            //        };
+            //    };
+            //};
+            //for (; ; )
+            //{
+            //    t.Add(new Program());
+            //    t.AddRange(t);
+            //};
+            //checked
+            //{
+            //    int b = (int)a;
+            //    Console.WriteLine(b);
 
-            C c = new C();
-            object u = c;
-
-            B b = (B)u;
+            //}
+            //dynamic t = 45;
+            //C c = new C();
+            //object u = c;
+            //t = u;
+            //B b = (B)u;
             //int kt = 45;
             //object o = kt;
             //double e = (double)o;
@@ -62,15 +101,15 @@ namespace Practise
             //Console.WriteLine(s);
             //Console.WriteLine(t);
             //Console.WriteLine(k);
-           
-            
-            
-            
-            
-            
+
+
+
+
+
+
             //Program t = new Program();
             //Console.WriteLine(t.k);
-       
+
             //Console.WriteLine(t.k2);
 
             //Tuple<int, string, bool> t = new Tuple<int, string, bool>(45, "salam", true);
