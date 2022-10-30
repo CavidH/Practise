@@ -30,23 +30,43 @@ namespace Practise
 
         static void Main(string[] args)
         {
-            DateTime dateTime = new DateTime();
-            while (true)
-            {
-                Console.BackgroundColor = ConsoleColor.DarkMagenta;
+            var t = new int[] { 1, 2, 4, 3, 4 };
+            var r = t[^1];
+        Console.WriteLine(r);
+            //DateTime dateTime = new DateTime();
+            //while (true)
+            //{
+            //    Console.BackgroundColor = ConsoleColor.DarkMagenta;
 
-                if (dateTime.Second != DateTime.Now.Second)
-                {
-                    dateTime = DateTime.Now;
-                    Console.Clear();
-                    Console.WriteLine(DateTime.Now);
+            //    if (dateTime.Second != DateTime.Now.Second)
+            //    {
+            //        dateTime = DateTime.Now;
+            //        Console.Clear();
+            //        Console.WriteLine(DateTime.Now);
  
-                }
-                //else
-                //{
-                //    Console.BackgroundColor = ConsoleColor.White;
-                //}
-            }
+            //    }
+            //    //else
+            //    //{
+            //    //    Console.BackgroundColor = ConsoleColor.White;
+            //    //}
+            //}            //Console.WriteLine(r);
+            //DateTime dateTime = new DateTime();
+            //while (true)
+            //{
+            //    Console.BackgroundColor = ConsoleColor.DarkMagenta;
+
+            //    if (dateTime.Second != DateTime.Now.Second)
+            //    {
+            //        dateTime = DateTime.Now;
+            //        Console.Clear();
+            //        Console.WriteLine(DateTime.Now);
+ 
+            //    }
+            //    //else
+            //    //{
+            //    //    Console.BackgroundColor = ConsoleColor.White;
+            //    //}
+            //}
 
 
             //double a = 2144447483643933378;
