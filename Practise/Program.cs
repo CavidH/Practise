@@ -1,19 +1,77 @@
 ﻿using System;
+using System.Globalization;
 using Tools;
 
 namespace Practise
 {
+    class T
+    {
+        string s;
+        public T(string s)
+        {
+            this.s = s; 
+        }
+        public void SetS(string s)=>this.s = s;
+
+        public string GetS() => this.s;
+    }
+    class A
+    {
+
+    }
+    class B:A{ }
+    class C:B { }
 
     internal class Program
     {
-        int k;
-        public int k2 { get; set; }
+        //int k;
+        //public int k2 { get; set; }
 
         static void Main(string[] args)
         {
-            Program t = new Program();
-            Console.WriteLine(t.k);
-            Console.WriteLine(t.k2);
+
+            C c = new C();
+            object u = c;
+
+            B b = (B)u;
+            //int kt = 45;
+            //object o = kt;
+            //double e = (double)o;
+            //Console.WriteLine(e.GetType());
+            //T t= new T("salam");
+            //T t1 = t;
+            //T t2 = t;
+
+            //t.SetS("Fuck");
+
+
+            //Console.WriteLine(t.GetS());
+            //Console.WriteLine(t1.GetS());
+            //Console.WriteLine(t2.GetS());
+
+
+
+            //string s = "Salam";
+            //string t = s;
+            //string k = t;
+
+
+            //s = "Fuck";
+
+
+            //Console.WriteLine(s);
+            //Console.WriteLine(t);
+            //Console.WriteLine(k);
+           
+            
+            
+            
+            
+            
+            //Program t = new Program();
+            //Console.WriteLine(t.k);
+       
+            //Console.WriteLine(t.k2);
 
             //Tuple<int, string, bool> t = new Tuple<int, string, bool>(45, "salam", true);
             //Console.WriteLine(t.Item3);
