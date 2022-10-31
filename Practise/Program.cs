@@ -10,19 +10,26 @@ namespace Practise
     {
         static void Main(string[] args)
         {
-            string s = "455";
 
-            
-            
-            // int a = 45;
-// Check(out a);
-//
-//             void Check(out int n)
-//             {
-//                n = 455;
-//             }
-//
-//             Console.WriteLine(a);
+
+            A a = new C();
+            a.T();
+
+            //            int a = 45;
+            //Check(out a);
+
+            //            void Check(out int n)
+            //            {
+            //               n = 455;
+            //            }
+
+            //            Console.WriteLine(a);
+            //
+            // string s = "455";
+            // int k;
+            // int.TryParse(s, out  k);
+            // Console.WriteLine(k);
+
 
             // Change(ref a);
             //
